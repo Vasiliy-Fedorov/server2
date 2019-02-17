@@ -1,8 +1,11 @@
 const express = require('express');
 const bodyParser = require('body-parser');
+const mongoConnection = require('./db').mongoConnection;
 
 const app = express();
 const PORT = 5000;
+
+mongoConnection();
 
 app.use((req, res, next) => {
     // eslint-disable-line consistent-return
