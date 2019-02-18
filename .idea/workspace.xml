@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea0bffb4-d436-41cf-aeb7-81e8cdcee978" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/db.js" afterDir="false" />
-    </list>
+    <list default="true" id="ea0bffb4-d436-41cf-aeb7-81e8cdcee978" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -78,13 +76,13 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignor" />
         <option value="$PROJECT_DIR$/postman-collection.json" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/node_modules/db.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/bookModel.js" />
         <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/pass.json" />
         <option value="$PROJECT_DIR$/db.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -177,12 +175,12 @@
       <workItem from="1549544473469" duration="3706000" />
       <workItem from="1550075232342" duration="7456000" />
       <workItem from="1550165833638" duration="5278000" />
-      <workItem from="1550407617841" duration="9988000" />
+      <workItem from="1550407617841" duration="10858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43272000" />
+    <option name="totallyTimeSpent" value="44142000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -195,6 +193,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="575" y="46" width="764" height="688" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20798898" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -222,13 +221,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/.gitignor" />
     <entry file="file://$PROJECT_DIR$/postman-collection.json" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -260,6 +252,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="1" lean-forward="true" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="9" lean-forward="true" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>

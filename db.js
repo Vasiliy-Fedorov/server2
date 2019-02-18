@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const log = require('./pass');
+
 const connectionString = log.password;
-//const connectionString = 'mongodb://admin:Ketrin2002@bonsecavek-shard-00-00-lscfm.mongodb.net:27017,bonsecavek-shard-00-01-lscfm.mongodb.net:27017,bonsecavek-shard-00-02-lscfm.mongodb.net:27017/libr?ssl=true&replicaSet=Bonsecavek-shard-0&authSource=admin&retryWrites=true';
 
 const options = {
     useCreateIndex: true,
