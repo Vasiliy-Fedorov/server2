@@ -1,6 +1,8 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoConnection = require('./db').mongoConnection;
+const bookSchema = require('./bookModel');
+const mongoose = require('mongoose');
 
 const app = express();
 const PORT = 5000;
@@ -35,14 +37,33 @@ let users = [
     ];
 
 app.get('/hi', (req, res) => {
-        res.status(200).json({ users: users})
+
+        bookSchema
+            .find()
+            .exec()
+            .then(docs => {
+                res.status(200).json(docs)
+            }).catch(err => {
+            res.status(400).json('ERROR', err)
+        })
+
     }
 );
 
 app.post('/hi', (req, res) => {
-        const user = req.body;
-        users.push(user);
-        res.status(200).json({ users: users, m: 'POST'})
+        const book = new bookSchema({
+            _id: new mongoose.Types.ObjectId(),
+            name: req.body.name
+        });
+
+        book
+            .save()
+            .then(() => {
+                res.status(201).json('OK');
+            })
+            .catch(err => {
+                res.status(500).json('ERR');
+            });
     }
 );
 
